@@ -9,6 +9,7 @@
 | 脚本 | 说明 | 文档 |
 | ---- | ---- | ---- |
 | [cool-nexus-sql-preview.js](./scripts/cool-nexus-sql-preview.js) | 修复 Nexus 仓库中 `.sql` 文件的 UTF-8 乱码，支持 SQL 语法高亮与主题切换 | [doc/cool-nexus-sql-preview.md](./doc/cool-nexus-sql-preview.md) |
+| [beisen-wiki-html-preview.js](./scripts/beisen-wiki-html-preview.js) | 在线预览 Beisen Wiki 的 HTML 附件，附件脚本在沙箱 iframe 中隔离执行 | [doc/beisen-wiki-html-preview.md](./doc/beisen-wiki-html-preview.md) |
 
 <!-- 新脚本请按上面的格式在表格中追加一行 -->
 
@@ -24,9 +25,11 @@
 .
 ├── README.md                        # 脚本索引（本文件）
 ├── doc/                             # 各脚本的详细说明文档
-│   └── cool-nexus-sql-preview.md
+│   ├── cool-nexus-sql-preview.md
+│   └── beisen-wiki-html-preview.md
 ├── scripts/                         # 脚本源码
-│   └── cool-nexus-sql-preview.js
+│   ├── cool-nexus-sql-preview.js
+│   └── beisen-wiki-html-preview.js
 └── LICENSE
 ```
 
